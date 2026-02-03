@@ -14,10 +14,10 @@ const SERVICES = [
 ];
 
 const THERAPISTS = [
-    { name: "Amara Singh", role: "Senior Massage Therapist", avatar: "AS", experience: "12 years", specialties: ["Swedish", "Deep Tissue", "Hot Stone"] },
-    { name: "Luna Park", role: "Facial Specialist", avatar: "LP", experience: "8 years", specialties: ["Anti-Aging", "Hydrating", "Vitamin C"] },
-    { name: "Mia Chen", role: "Body Treatment Expert", avatar: "MC", experience: "10 years", specialties: ["Scrubs", "Wraps", "Aromatherapy"] },
-    { name: "Sofia Reyes", role: "Holistic Therapist", avatar: "SR", experience: "15 years", specialties: ["All Services"] },
+    { name: "Anh Pham", role: "Senior Massage Therapist", avatar: "AP", experience: "12 years", specialties: ["Swedish", "Deep Tissue", "Hot Stone"] },
+    { name: "Hannah Ho", role: "Facial Specialist", avatar: "HH", experience: "8 years", specialties: ["Anti-Aging", "Hydrating", "Vitamin C"] },
+    { name: "Tiffany Huynh", role: "Body Treatment Expert", avatar: "TH", experience: "10 years", specialties: ["Scrubs", "Wraps", "Aromatherapy"] },
+    { name: "Kristian Nguyen", role: "Holistic Therapist", avatar: "KN", experience: "15 years", specialties: ["All Services"] },
 ];
 
 const TESTIMONIALS = [
