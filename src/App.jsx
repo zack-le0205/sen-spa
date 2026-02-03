@@ -490,7 +490,7 @@ function Contact() {
                 )}
                 {/* Contact info row */}
                 <div style={{ display: "flex", gap: 40, marginTop: 56, justifyContent: "center", flexWrap: "wrap" }}>
-                    {[["📍", "123 Serenity Lane, Beverly Hills"], ["📞", "+1 (310) 555-0192"], ["✉", "hello@schedulo.com"]].map(([icon, text]) => (
+                    {[["📍", "Saugus, Massachusetts"], ["📞", "+1 (617) 797-4097"], ["✉", "zackle0205@gmail.com"]].map(([icon, text]) => (
                         <div key={text} style={{ textAlign: "center" }}>
                             <div style={{ fontSize: 20, marginBottom: 6 }}>{icon}</div>
                             <p style={{ color: "rgba(255,255,255,0.45)", fontFamily: "'Raleway', sans-serif", fontSize: 13, margin: 0 }}>{text}</p>
