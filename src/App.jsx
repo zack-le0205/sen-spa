@@ -52,7 +52,7 @@ function Nav({ active, setActive }) {
         }}>
             <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                 <div style={{ width: 34, height: 34, borderRadius: "50%", background: "linear-gradient(135deg,#d4a853,#b8893a)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 16, fontWeight: 700, color: "#fff" }}>S</div>
-                <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 22, fontWeight: 700, color: "#d4a853", letterSpacing: 1 }}>Schedulo</span>
+                <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 22, fontWeight: 700, color: "#d4a853", letterSpacing: 1 }}>Sen</span>
             </div>
             <div style={{ display: "flex", gap: 28, alignItems: "center" }}>
                 {["Home", "Services", "About", "Contact"].map(item => (
@@ -100,7 +100,7 @@ function Hero({ setActive }) {
                     Indulge in<br /><span style={{ color: "#d4a853", fontStyle: "italic" }}>Pure Relaxation</span>
                 </h1>
                 <p style={{ color: "rgba(255,255,255,0.5)", fontFamily: "'Raleway', sans-serif", fontSize: 17, lineHeight: 1.7, maxWidth: 520, margin: "0 auto 40px" }}>
-                    Experience the art of rejuvenation at Schedulo. Curated treatments designed to restore your mind, body, and spirit.
+                    Experience the art of rejuvenation at Sen. Curated treatments designed to restore your mind, body, and spirit.
                 </p>
                 <div style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap" }}>
                     <button onClick={() => setActive("book")} style={{
@@ -508,9 +508,9 @@ function Footer() {
             <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 20 }}>
                 <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
                     <div style={{ width: 30, height: 30, borderRadius: "50%", background: "linear-gradient(135deg,#d4a853,#b8893a)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 14, fontWeight: 700, color: "#fff" }}>S</div>
-                    <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, fontWeight: 700, color: "#d4a853" }}>Schedulo</span>
+                    <span style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, fontWeight: 700, color: "#d4a853" }}>Sen</span>
                 </div>
-                <p style={{ color: "rgba(255,255,255,0.28)", fontFamily: "'Raleway', sans-serif", fontSize: 12, margin: 0 }}>© 2025 Schedulo Spa & Beauty. All rights reserved.</p>
+                <p style={{ color: "rgba(255,255,255,0.28)", fontFamily: "'Raleway', sans-serif", fontSize: 12, margin: 0 }}>© 2026 Sen Spa & Beauty. Built by Zack Le.</p>
             </div>
         </footer>
     );
